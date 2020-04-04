@@ -1,0 +1,392 @@
+body {
+    color: black;
+    font-family: arial;
+}
+
+section .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #616161;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+
+section#services {
+    background-color: #f5f5f5;
+}
+
+section h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "arial black";
+    font-size: 30pt;
+    text-align: center;
+
+}
+
+#eye-catch {
+    background-image: url(../images/eyecatch5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    /* background-color: #0f0f0f; */
+    /* line-height: 100vh; */
+    line-height: 500px;
+    max-width: 100%;
+    width: 100%;
+    line-height: auto;
+}
+
+#eye-catch .layer{
+    background-color: rgba(27,36,47,0.9);
+}
+
+#eye-catch .intro {
+    margin: 0 auto;
+    color: white;
+    /* color: black; */
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 28pt;
+}
+
+#menu {
+    height: 50px;
+    background-color: #1b242f;
+    border-bottom: 3px solid #04c2c9;
+    line-height: 50px;
+    text-align: center;
+}
+#menu a{
+    color:inherit;
+    text-decoration: inherit;
+}
+
+#menu ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+#menu ul li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 40px;
+    color: white;
+    font-family: arial;
+}
+#menu ul li:hover {
+    color: #e31b6d;
+}
+
+#menu ul li.selected {
+    color: #e31b6d;
+}
+
+#about .group.skill {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#about .group h2 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#about .group .content {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#services {
+    clear: both;
+    overflow: hidden;
+}
+
+.chart .bar {
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.chart .bar.fill {
+    background-color: #00a1a7;
+    text-align: center;
+}
+
+.chart .bar.fill .tag {
+    background-color: #04c2c9;
+    height: 30px;
+    line-height: 30px;
+    width: 75px;
+    vertical-align: middle;
+    display: inline-block;
+    float: left;
+}
+
+.chart .bar .years {
+    display: inline-block;
+    height: 50px;
+    /* float:right; */
+    clear: both;
+}
+
+.skill .content {
+    margin-bottom: 10px;
+}
+
+.skill .content th {
+    text-align: left;
+}
+
+.skill .content td {
+    padding-left: 5px;
+}
+
+.bold.flex.tag {
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+span.years {
+    margin: auto 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#about .left {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.header-bar {
+    background: #444649;
+    height: 4px;
+    margin: 25px auto 50px auto;
+    width: 70px;
+}
+
+.job-history td.year {
+    font-weight: bold;
+    padding-right: 3px;
+    font-size: 1em;
+}
+
+#about .work h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.job-history td,
+.work .description td {
+    font-size: 0.9em;
+}
+.work .description{
+    margin-bottom: 30px;
+}
+.work .description th {
+    width:2em;
+    padding-right: 5px;
+    box-sizing: content-box;
+}
+.work .note{
+    float:left;
+}
+
+#about .work h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#about .work .show-more-wrapper{
+    text-align: left;
+}
+#about .work .show-more{
+    /* text-align: right; */
+    /* padding-right: 30px; */
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+}
+#about .work .show-more.hide{
+    display:none;
+}
+
+#about .work .more-work{
+    display: none;
+}
+#about .work .more-work.show{
+    display: block;
+}
+
+/* #services .service { */
+/* float: left; */
+/* display: inline-block; */
+/* margin-left: 15%; */
+/* } */
+
+#services .service img {
+    display: block;
+}
+
+#service-wrapper {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#services .service-name {
+    font-weight: bold;
+    margin-top: 5px;
+    /* padding-top:10px; */
+    display: inline-block;
+}
+
+#price-table-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+}
+
+.price-table {
+    margin: 10px;
+}
+
+.price-table-name {
+    font-weight: bold;
+}
+
+.price-table table {
+    margin-top: 5px;
+}
+
+.price-table table,
+.price-table tr,
+.price-table td,
+.price-table th {
+    border: 1px solid grey;
+}
+
+.price-table th,
+.price-table td {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.price-table th {
+    width: 10em;
+}
+
+.price-table td {
+    width: 10em;
+}
+
+#contact {
+    /* width: 100%; */
+    background-color: #252934;
+}
+
+#contact h1 {
+    color: white;
+}
+
+#contact input[type=text],
+#contact input[type=email],
+#contact textarea {
+    background: #1e242c;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 12pt;
+    margin-bottom: 3px;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+#contact textarea {
+    margin-bottom: 5px;
+    min-height: 150px;
+}
+
+#contact input[type=submit] {
+    color: #fff;
+    float: right;
+    font-size: 12pt;
+    margin: 5px 0 0 0;
+    outline: 0;
+    padding: 10px 30px;
+    background-color: transparent;
+}
+
+#contact form {
+    min-width: 500px;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+#contact #success {
+    display: none;
+}
+
+footer {
+    background-color: #1b242f;
+    overflow: hidden;
+    color: white;
+}
+
+footer .contact{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+footer .contact a{
+    color: inherit;
+}
+.copyright {
+    padding: 30px;
+    text-align: center;
+}
+
+.copyright .name {
+    font-weight: bold;
+    color: #8f9aa7;
+}
+
+.copyright .year {
+    color: #e31b6d;
+}
+span.pink{
+    color: #e31b6d;
+}
